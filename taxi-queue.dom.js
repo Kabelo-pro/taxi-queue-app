@@ -27,3 +27,13 @@ leaveButton.addEventListener("click", function(){
 
 
 });
+
+joinTaxiQue.addEventListener("click", function(){
+    taxiQueCount.innerHTML = Number(taxiQueCount.innerHTML) + 1
+
+});
+
+departButton.addEventListener("click", function(){
+    taxiQueCount.innerHTML = Number(taxiQueCount.innerHTML) - 1
+
+});
