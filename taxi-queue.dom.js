@@ -36,4 +36,7 @@ joinTaxiQue.addEventListener("click", function(){
 departButton.addEventListener("click", function(){
     taxiQueCount.innerHTML = Number(taxiQueCount.innerHTML) - 1
 
+    passengerQueCount.innerHTML = Number(passengerQueCount.innerHTML) - 12
+        
+    
 });
